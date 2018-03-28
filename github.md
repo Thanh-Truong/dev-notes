@@ -16,7 +16,10 @@
 
 ### Commands
 
-* git reset --hard
+* Reset changes
+``` 
+git reset --hard
+```
 
 * New branch locally
 git branch xx
