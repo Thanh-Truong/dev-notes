@@ -51,12 +51,15 @@ git merge origin xx --no-ff
 * Squash all commit from a feature branch, which diverges from this branch
 git merge origin xx --squash
 
-* Rename old branche 
-git branch -m old_branch new_branch         # Rename branch locally    
+* Rename old branche
+Rename branch locally 
+git branch -m old_branch new_branch         
 
-git push origin :old_branch                 # Delete the old branch    
+Delete the old branch 
+git push origin :old_branch                     
 
-git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
+Push the new branch, set local branch to track the new remote
+git push --set-upstream origin new_branch   
 
 * showing parents of a merge commit
 git show --pretty=raw <commit hash>
