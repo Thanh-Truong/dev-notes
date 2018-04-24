@@ -1,3 +1,9 @@
+### Repository Aladdin
+* Create new respository by GitHub webinterface
+* git init
+* git remote add origin git@github.com:Thanh-Truong/Aladdin.git
+* git push -u origin master
+
 ### Work routine:
 
 * only read https://github.com/notifications/participating that someone mentions you.
