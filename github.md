@@ -15,6 +15,9 @@
 * https://github.com/issues/assigned.
 * https://github.com/issues/pulls
 
+### Searching issues and pull requests
+https://help.github.com/articles/searching-issues-and-pull-requests/
+
 ### More tips 
 
 * Refine Github experience https://github.com/sindresorhus/refined-github
