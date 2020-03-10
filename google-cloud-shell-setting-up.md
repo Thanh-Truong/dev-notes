@@ -48,3 +48,14 @@ Some keys to take away
   ```
 
 # Accessing Visual Code from a browser
+- Option 1 - via Google Cloud Console
+  There is an icon `Web preview` to launch another web tab to interact with the Visual Studio.
+- Option 2 - via Google Cloud Shell command line
+  ```
+  gcloud alpha cloud-shell ssh --ssh-flag="-L 8080:localhost:8080"
+  ```
+  This opens a connection to the Google Cloud Shell server, and forwards any connection to port 8080 on the local machine to port 8080 on the Google Cloud Shell server.
+
+ Enjoy !!!
+
+![](visual_studio_code_server.png)
