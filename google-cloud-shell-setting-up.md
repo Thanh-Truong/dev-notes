@@ -50,6 +50,8 @@ Some keys to take away
 # Accessing Visual Code from a browser
 - Option 1 - via Google Cloud Console
   There is an icon `Web preview` to launch another web tab to interact with the Visual Studio.
+  If there is an error saying that the address could not be found, please remove the parameter `auther` 
+  
 - Option 2 - via Google Cloud Shell command line
   ```
   gcloud alpha cloud-shell ssh --ssh-flag="-L 8080:localhost:8080"
